@@ -6,6 +6,7 @@
     <title>Cascades and Indentations</title>
 </head>
 <body>
+    <header>
     <h1>Cascades and Indentations</h1>
     <h2>What is Cascades?</h2>
     <p>Cascades is like the code hygiene. It makes the code easy to read. It is presented in a clear way which makes your code more readable to others. </p>
@@ -15,14 +16,14 @@
          How would this looks like? In my previous pages I created lists. Those are a great example of how this relationship works. The UL was the parent element and the LI was the child element. 
          To make the List possible, i had to define a parent element, which was ul. Then the LI became the child element which housed the actual content of the list. Now this relationship 
          only had a Parent and a child Element. What about the sibling? To have all 3 it would look like having the parent <b>NAV</b> element that houses a child <b>UL</b> element that houses
-         the sibling <b>LI</b> element.
-
+         the sibling <b>LI</b> element. Below i have created a comment for each relationship for the navigation with the link to go to main page.
     </p>
-    <nav>
-        <ul>
-            <li><a href="index.html">Back to Main Page</a></li>
+    <h1>Navigation</h1> <!--H1 is a sibling of nav for it is a closed element. It is not housing/nesting the nav element.-->
+    <nav> <!--Nav is teh parent element that is housing/nesting UL element-->
+        <ul> <!--UL is the child of Nav, but a parent of LI-->
+            <li><a href="index.html">Back to Main Page</a></li> <!--LI is a child of UL but a parent of a href. However, if there were more than one LI, they would be siblings. The 'a' tag is a child of LI-->
         </ul>
     </nav>
-
+    </header>
 </body>
 </html>
