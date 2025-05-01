@@ -1,2 +1,3 @@
-# Week 2 lesson 1 practice
-practicing coding id and class attributes as well as difference between block elements and inline elements.
+# Week 2 Practice
+Practicing coding information on what I learned in Week 2, Lesson 1 and lesson 2
+
